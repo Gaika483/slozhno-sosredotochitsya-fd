@@ -278,7 +278,7 @@
   text-shadow: 2px 2px 0px var(--accent-color);
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .header {
     margin-block-end: 60px;
     padding: 0 20px;
@@ -328,7 +328,7 @@
   }
 
   .focus {
-    margin-block-end: 63px;
+    margin-block-end: 66px;
   }
 
   .content__section {
@@ -390,8 +390,8 @@
 @media (min-width: 1024px) and (max-width: 1440px) {
   .header {
     margin-block-end: 60px;
-    padding: 0 20px;
-    min-block-size: 1024px;
+    padding: 20px;
+    min-block-size: 768px;
   }
   .header__theme-menu {
     justify-self: center;
@@ -409,7 +409,7 @@
 
   .header__text {
     justify-self: end;
-    max-width: 364px;
+    max-width: 491px;
   }
 
   .content__section {
