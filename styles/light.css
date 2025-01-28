@@ -15,6 +15,8 @@
   --subtitle-color: #353430;
   --bg-image: url(../images/cover-image-light.png);
   --secondary-color: var(--color-black, #35343040);
+  --article-title-color: var(--main-text-color);
+  --section-title-color: #353430;
   .decor {
     display: none;
   }
@@ -35,7 +37,6 @@
       --article-title-color: var(--main-text-color);
       --section-title-color: var(--main-text-color);
       --link-shadow: var(--title-color);
-      --rec-color: var(--background-color);
     .decor {
       display: none;
     }
