@@ -328,7 +328,7 @@
   }
 
   .focus {
-    margin-block-end: 66px;
+    margin-block-end: 64px;
   }
 
   .content__section {
@@ -403,13 +403,28 @@
   }
 
   .header__title {
-    margin-left: -3%;
+    margin-left: -2%;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .header__text {
     justify-self: end;
     max-width: 491px;
+  }
+
+  .decor::after {
+    top: 8px;
+    right: 9px;
+  }
+
+  .decorated-zone::after {
+    top: 20px;
+    right: 20px;
+  }
+
+  .decorated-zone::before {
+    bottom: 20px;
+    left: 20px;
   }
 
   .content__section {
@@ -423,7 +438,7 @@
   }
 
   .focus {
-    margin-block-end: 80px;
+    margin-block-end: 64px;
   }
 
   .concentrate {
