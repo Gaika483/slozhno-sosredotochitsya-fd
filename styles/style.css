@@ -327,10 +327,6 @@
     padding: 0 20px;
   }
 
-  .focus {
-    margin-block-end: 64px;
-  }
-
   .content__section {
     grid-template-columns: minmax(236px, 1fr) 2fr;
   }
@@ -385,6 +381,10 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
+
+  .focus {
+    margin-block-end: 64px;
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
@@ -438,7 +438,7 @@
   }
 
   .focus {
-    margin-block-end: 64px;
+    margin-block-end: 63px;
   }
 
   .concentrate {
@@ -459,10 +459,6 @@
     grid-template-columns: repeat(3, 1fr);
     align-items: start;
     gap: 20px;
-  }
-
-  .focus {
-    margin-block-end: 80px;
   }
 
   .section:last-of-type .section__image {
