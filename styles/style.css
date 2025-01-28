@@ -383,7 +383,7 @@
   }
 
   .focus {
-    margin-block-end: 64px;
+    margin-block-end: 66px;
   }
 }
 
@@ -438,16 +438,12 @@
   }
 
   .focus {
-    margin-block-end: 63px;
+    margin-block-end: 66px;
   }
 
   .concentrate {
     display: grid;
     grid-template-columns: auto;
-  }
-
-  .concentrate .content__title {
-    max-width: 236px;
   }
 
   .content__section {
