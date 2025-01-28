@@ -281,7 +281,7 @@
 @media (min-width: 768px) and (max-width: 1023px) {
   .header {
     margin-block-end: 60px;
-    padding: 0 20px;
+    padding: 20px;
     min-block-size: 1024px;
   }
 
@@ -334,10 +334,11 @@
   .concentrate {
     display: grid;
     grid-template-columns: auto;
+    margin-block-end: 80px;
   }
 
   .concentrate-better {
-    margin-block-end: 50px;
+    margin-block-end: 80px;
   }
 
   .concentrate .content__title {
@@ -387,7 +388,7 @@
   }
 
   .focus {
-    margin-block-end: 64px;
+    margin-block-end: 63px;
   }
 }
 
@@ -395,7 +396,7 @@
   .header {
     margin-block-end: 60px;
     padding: 20px;
-    min-block-size: 768px;
+    min-block-size: 100vh;
   }
   .header__theme-menu {
     justify-self: center;
@@ -409,6 +410,7 @@
   .header__title {
     margin-left: -2%;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    text-shadow: 4px 4px 0px #ff0070;
   }
 
   .header__text {
@@ -434,7 +436,6 @@
   .content__section {
     display: grid;
     grid-template-columns: minmax(236px, 1fr) 2fr;
-    gap: 20px;
   }
 
   .main {
@@ -442,16 +443,17 @@
   }
 
   .focus {
-    margin-block-end: 64px;
+    margin-block-end: 63px;
   }
 
   .concentrate {
     display: grid;
     grid-template-columns: auto;
+    margin-block-end: 80px;
   }
 
   .concentrate-better {
-    margin-block-end: 50px;
+    margin-block-end: 80px;
   }
 
   .concentrate__container {
@@ -504,6 +506,6 @@
 
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    text-shadow: 2px 2px 0px #ff0070;
+    text-shadow: 4px 4px 0px #ff0070;
   }
 }
