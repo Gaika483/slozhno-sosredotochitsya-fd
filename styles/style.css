@@ -282,7 +282,7 @@
   .header {
     margin-block-end: 60px;
     padding: 20px;
-    min-block-size: 1024px;
+    min-block-size: 100vh;
   }
 
   .header__theme-menu {
@@ -423,6 +423,11 @@
     right: 9px;
   }
 
+  .decor::before {
+    top: 3px;
+    right: 28px;
+  }
+
   .decorated-zone::after {
     top: 20px;
     right: 20px;
@@ -506,6 +511,6 @@
 
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    text-shadow: 4px 4px 0px #ff0070;
+    text-shadow: 2px 2px 0px #ff0070;
   }
 }
