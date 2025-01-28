@@ -383,7 +383,7 @@
   }
 
   .focus {
-    margin-block-end: 66px;
+    margin-block-end: 65px;
   }
 }
 
@@ -438,7 +438,7 @@
   }
 
   .focus {
-    margin-block-end: 66px;
+    margin-block-end: 65px;
   }
 
   .concentrate {
@@ -496,5 +496,10 @@
   }
   .footer {
     margin-block-start: 60px;
+  }
+
+  .footer__title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    text-shadow: 2px 2px 0px #ff0070
   }
 }
