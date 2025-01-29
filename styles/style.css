@@ -3,12 +3,12 @@
   font-weight: 400;
   font-size: 18px;
   background-color: var(--bg-color, #fff1f7);
-  background-attachment: fixed;
-  transition-duration: var(--transition-duration);
   background-image: var(--bg-image);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
+  transition-duration: var(--transition-duration);
 }
 
 .header {
@@ -16,9 +16,9 @@
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   width: 100%;
+  height: 100vh;
   margin-block-end: 40px;
   padding: 10px;
-  height: 100vh;
   min-block-size: 668px;
 }
 
@@ -283,8 +283,6 @@
   .header {
     margin-block-end: 60px;
     padding: 20px;
-    height: 100vh;
-    min-block-size: 668px;
   }
 
   .header__theme-menu {
@@ -292,7 +290,6 @@
     margin-block-start: 167px;
   }
   .header__theme-menu-list {
-    flex-direction: column;
     gap: 13px;
   }
 
@@ -334,8 +331,6 @@
   }
 
   .concentrate {
-    display: grid;
-    grid-template-columns: auto;
     margin-block-end: 80px;
   }
 
@@ -345,10 +340,6 @@
 
   .concentrate .content__title {
     max-width: 236px;
-  }
-
-  .concentrate__container {
-    grid-template-columns: auto;
   }
 
   .section:last-of-type .section__image {
@@ -402,8 +393,6 @@
   .header {
     margin-block-end: 60px;
     padding: 20px;
-    height: 100vh;
-    min-block-size: 668px;
   }
   .header__theme-menu {
     justify-self: center;
@@ -417,7 +406,6 @@
   .header__title {
     margin-left: -2%;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    text-shadow: 4px 4px 0px #ff0070;
   }
 
   .header__text {
@@ -446,7 +434,6 @@
   }
 
   .content__section {
-    display: grid;
     grid-template-columns: minmax(236px, 1fr) 2fr;
   }
 
@@ -459,8 +446,6 @@
   }
 
   .concentrate {
-    display: grid;
-    grid-template-columns: auto;
     margin-block-end: 80px;
   }
 
@@ -469,10 +454,7 @@
   }
 
   .concentrate__container {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: start;
-    gap: 20px;
   }
 
   .section:last-of-type .section__image {
@@ -518,6 +500,5 @@
 
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    text-shadow: 2px 2px 0px #ff0070;
   }
 }
