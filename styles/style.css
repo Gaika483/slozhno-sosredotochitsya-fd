@@ -390,7 +390,7 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 2560px) {
   .header {
     margin-block-end: 60px;
     padding: 20px;
